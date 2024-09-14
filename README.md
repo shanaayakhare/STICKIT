@@ -9,6 +9,7 @@ Therefore we moved towards the stable diffusers XL model, but the XL model requi
 Our second approach to our problem was that we divide the problem into two halves - in the first half, our program will read the image and generate an output, for which we will subsequently use an image to text model and for the second, our program will generate a prompt keeping in mind the characteristics and features of the original image, for which we would use a text to image model. 
 
 However, we used the pix 2 pix model which was highly sustainable and provided us with the desired result. For the prompts, we tried inculcating OPEN AI, so that the user may prompt "Good Night" and the AI will be able to produce a person lying on the bed sleeping or tucked in bed etc. 
+
 We were successfully able to achieve the desired results as shown below.
 
 
