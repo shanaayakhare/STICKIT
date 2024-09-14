@@ -2,7 +2,7 @@
 
 An AI based interface which generates 3D DISNEY PIXAR stickers according to the image and prompt given.
 
-While programming we began by programming using the HUGGING FACE reference and inculcated the stable diffusers model which was not able to provide us with the desired result. 
+While programming we began by using the HUGGING FACE reference and inculcated the stable diffusers model which was not able to provide us with the desired result. 
 
 Therefore we moved towards the stable diffusers XL model, but the XL model required heavy processing and a lot of storage, which was not possible on VSCode, so we shifted to Google Collab. But, we still faced problems using SDXL model. 
 
