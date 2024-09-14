@@ -81,3 +81,18 @@ result_image = pipeline(prompt=prompt, image=processed_image, strength=0.45, gui
 # Save and Display the Result
 result_image.save("pixar_disney_character_output.jpg")
 result_image.show()
+
+#Tried inculcating OPENAI for User Prompts (under developed)
+
+import openai
+
+openai.api_key = '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'
+
+response = openai.Completion.create(
+    model="code-davinci-002",
+    prompt="describe a scenery of good night",
+    max_tokens=100
+)
+
+print(response.choices[0].text.strip())
+
